@@ -16,3 +16,20 @@ nav {
     height: 200px;
     background-color: blue;
 }
+
+#first-paragraph {
+    background-color: rebeccapurple;
+    padding: 5px 5px 5px 5px;
+}
+
+#titulo-home {
+    font-size: 30px;
+    font-family: cursive;
+    color: salmon
+}
+
+.parrafos-home {
+    font-size: 25px;
+    color: skyblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
