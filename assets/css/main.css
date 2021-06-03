@@ -20,8 +20,35 @@ nav {
     text-decoration: none
 }
 
+img {
+    width: 70%;
+    height: 36rem;
+    display: block;
+    margin: auto;
+}
 
-/*nav>a {
-    color: white;
-    text-decoration: none;
-}*/
+
+/*Texto centrar portada*/
+
+.contenedor {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.texto-encima {
+    font-size: 20px;
+    color: chartreuse;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 22%;
+    text-align: center;
+}
+
+.centrado {
+    position: absolute;
+    top: 49.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
