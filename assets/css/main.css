@@ -20,9 +20,22 @@ nav {
     text-decoration: none
 }
 
-img {
+
+/*Centrar imagen*/
+
+.site-header {
+    background-position: center center;
+    background-size: cover;
+    height: 10%;
+    min-height: 40rem;
     width: 70%;
-    height: 36rem;
+}
+
+img {
+    position: absolute;
+    left: 15%;
+    width: 70%;
+    height: 30rem;
     display: block;
     margin: auto;
 }
@@ -30,19 +43,13 @@ img {
 
 /*Texto centrar portada*/
 
-.contenedor {
-    position: relative;
-    display: inline-block;
-    text-align: center;
-}
-
 .texto-encima {
     font-size: 20px;
     color: chartreuse;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     position: absolute;
     top: 50%;
-    left: 22%;
+    left: 40%;
     text-align: center;
 }
 
