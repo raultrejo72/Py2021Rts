@@ -24,7 +24,7 @@ nav {
 /*Centrar imagen*/
 
 img {
-    width: 70%;
+    width: 50%;
     height: 35rem;
     display: flex;
     margin: auto;
@@ -44,7 +44,7 @@ img {
 
 .texto-encima {
     font-size: 40px;
-    color: chartreuse;
+    color: rgb(145, 74, 27);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -53,4 +53,54 @@ img {
     top: 49.5%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+
+/*cards*/
+
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.card {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.iconos-card {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.icono {
+    flex-basis: calc(33.3% - 1rem);
+    text-align: center;
+}
+
+
+/*grid*/
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+/*sesion 04 ejemplos*/
+
+.features {
+    display: grid;
+    grid-template-rows: 25% 20% 20% 25%;
+    background-color: #21f360;
 }
