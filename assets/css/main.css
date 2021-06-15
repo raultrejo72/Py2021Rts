@@ -1,76 +1,134 @@
+html {
+    font-size: 62.5%;
+}
+
 body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
     margin: 0;
 }
 
-nav {
-    background-color: rgba(43, 107, 109, 0.801);
-    font-size: 25px;
-    font-family: sans-serif;
-    width: 100%;
-    height: 70px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.contenedor-nav {
-    font-size: 25px;
-    color: skyblue;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-decoration: none
-}
-
-
-/*Centrar imagen*/
-
 img {
-    width: 50%;
-    height: 35rem;
-    display: flex;
-    margin: auto;
-    align-items: center;
-    justify-content: space-around;
-    /*
-    position: absolute;
-    left: 15%;
-    width: 70%;
-    height: 30rem;
-    display: block;
-    margin: auto;*/
+    max-width: 100%;
 }
-
-
-/*Texto centrar portada*/
-
-.texto-encima {
-    font-size: 40px;
-    color: rgb(145, 74, 27);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.centrado {
-    position: absolute;
-    top: 49.5%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-
-/*cards*/
 
 .contenedor {
     max-width: 120rem;
     margin: 0 auto;
 }
 
-.card {
+h2 {
+    font-size: 3.4rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+h4 {
+    font-size: 2.6rem;
+}
+
+.seccion {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
-.iconos-card {
+.fw-300 {
+    font-weight: 100;
+}
+
+.centrar-texto {
+    text-align: center;
+}
+
+.d-block {
+    display: block!important;
+}
+
+
+/**botones**/
+
+.boton {
+    background: white;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.8rem;
+    padding: 1rem 3rem;
+    margin-top: 3rem;
+    text-align: center;
+    display: inline-block;
+}
+
+.boton-amarillo {
+    background: chocolate;
+}
+
+
+/*Header*/
+
+.site-header {
+    background-color: rgb(38, 58, 58);
+    padding: 1rem 0 3rem 0;
+}
+
+.site-header.home {
+    background: url(../images/31173.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    min-height: 60 rem;
+}
+
+.contenido-header {
+    height: 100%;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contenido-header h1 {
+    color: white;
+    padding-bottom: 2rem;
+    max-width: 60rem;
+    line-height: 1.8rem;
+    ;
+}
+
+.barra {
+    display: inline-grid;
+    /* display: flex; */
+    justify-content: end;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+
+/**Navegacion**/
+
+.navegacion a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.8rem;
+    /**= 18 PX**/
+    margin-right: 2rem;
+}
+
+.navegacion a:hover {
+    color: yellowgreen;
+}
+
+.navegacion a:last-of-type {
+    margin: 0;
+}
+
+
+/**ICONO NOSOTROS**/
+
+.iconos-nosotros {
+    display: flex;
+    justify-content: space-between;
 }
 
 .icono {
@@ -78,29 +136,43 @@ img {
     text-align: center;
 }
 
-
-/*grid*/
-
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    background-color: #2196F3;
-    padding: 10px;
-}
-
-.grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
+.icono h3 {
+    text-transform: uppercase;
 }
 
 
-/*sesion 04 ejemplos*/
+/**CARDS**/
 
-.features {
-    display: grid;
-    grid-template-rows: 25% 20% 20% 25%;
-    background-color: #21f360;
+.contenedor-card {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap/*tener orden*/
+    ;
+}
+
+.card {
+    /*flex: 0 0 calc(33.3% - 1rem)*/
+    flex-grow: 0;
+    flex-shrink: 0/*Para no encogerse*/
+    ;
+    flex-basis: calc(33.3% - 1rem);
+    border-style: solid;
+    border-color: burlywood;
+    border-width: 1px;
+    /**es lo mismo que el de arriba ---> border: 1px solid coral **/
+    background: rgb(231, 231, 226);
+    margin-bottom: 2rem;
+}
+
+.contenido-card {
+    padding: 2rem;
+}
+
+.contenido-card h3 {
+    margin: 0;
+}
+
+.precio {
+    color: darkgreen;
+    font-weight: 700;
 }

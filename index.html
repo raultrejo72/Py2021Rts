@@ -4,78 +4,87 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Titulo Ejemplo</title>
     <link rel="stylesheet" href="assets/css/main.css">
+
 </head>
 
 <body>
+    <header class="site-header home">
+        <div class="contenedor contenido-header">
+            <div class="barra">
+                <nav class="navegacion">
+                    <a target="_blank" href="nosotros.html">Nosotros</a>
+                    <a href="siguenos.html">Siguenos</a>
+                    <a href="contacto.html">Contacto</a>
+                    <a href="iniciarsesion.html">Iniciar sesion</a>
+                </nav>
+            </div>
 
-    <nav>
-        <a target="_blank" style="margin-left: 20px;" href="home.html" class="contenedor-nav">Home</a>
-        <div>
-            <a target="_blank" style="margin-left: 20px;" href="contacto.html" class="contenedor-nav">Contacto</a>
-            <a target="_blank" style="margin-left: 20px;" href="nosotros.html" class="contenedor-nav">Nosotros</a>
-            <a target="_blank" style="margin-left: 20px;" href="servicio.html" class="contenedor-nav">Servicio</a>
-            <a target="_blank" style="margin-left: 20px;" href="videos.html" class="contenedor-nav"> iniciar sesion</a>
+            <h1>Vuela con nosotros rapido y seguro</h1>
+
         </div>
-    </nav>
-    <img src="assets/images/avion_home.jpg" alt="imagen de prueba">
-    <div class="texto-encima centrado"> Bienvenido a la pagina de inicio </div>
-
-
-    <section class="contenedor card">
-        <div class="iconos-card">
+    </header>
+    <section class="contenedor seccion">
+        <h2 class=".fw-300 centrar-texto">Mas sobre nosotros</h2>
+        <div class="iconos-nosotros">
             <div class="icono">
-                <img src="assets/images/31173.jpg" alt="Imagen prueba 1">
-                <h3>Ejemplo 1</h3>
+                <img src="assets/images/avion_home.jpg" alt="Icono Seguridad">
+                <h3>Seguridad</h3>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis doloremque natus, ducimus illum optio atque quae tenetur dignissimos nostrum in tempora eos rerum quas officia expedita, excepturi totam repudiandae fuga.</p>
             </div>
 
             <div class="icono">
-                <img src="assets/images/31173.jpg" alt="Imagen prueba 2">
-                <h3>Ejemplo 2</h3>
+                <img src="assets/images/avion_home.jpg" alt="Icono Mejor precio">
+                <h3>El mejor precio</h3>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis doloremque natus, ducimus illum optio atque quae tenetur dignissimos nostrum in tempora eos rerum quas officia expedita, excepturi totam repudiandae fuga.</p>
             </div>
 
             <div class="icono">
-                <img src="assets/images/31173.jpg" alt="Imagen prueba 3">
-                <h3>Ejemplo 3</h3>
+                <img src="assets/images/avion_home.jpg" alt="Icono a tiempo">
+                <h3>Tiempo</h3>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis doloremque natus, ducimus illum optio atque quae tenetur dignissimos nostrum in tempora eos rerum quas officia expedita, excepturi totam repudiandae fuga.</p>
             </div>
         </div>
     </section>
 
+    <main class="seccion contenedor">
+        <h2 class="fw-300 centrar-texto">Vuelos</h2>
 
-    <h1>Grid Elements</h1>
+        <div class="contenedor-card">
+            <div class="card">
+                <img src="assets/images/avion_home.jpg" alt="anuncio casa en el lago">
+                <div class="contenido-card">
+                    <h3>Cancun</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint nihil optio eligend</p>
+                    <p class="precio">$799</p>
+                    <a href="" class="boton boton-amarillo d-block">Ver vuelos</a>
+                </div>
+            </div>
 
-    <p>A Grid Layout must have a parent element with the <em>display</em> property set to <em>grid</em> or <em>inline-grid</em>.</p>
+            <div class="card">
+                <img src="assets/images/avion_home.jpg" alt="anuncio de casa de lujo">
+                <div class="contenido-card">
+                    <h3>Mazatlan</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint nihil optio eligend</p>
+                    <p class="precio">$599</p>
 
-    <p>Direct child element(s) of the grid container automatically becomes grid items.</p>
+                    <a href="" class="boton boton-amarillo d-block">Ver vuelos</a>
+                </div>
+            </div>
 
-    <div class="grid-container">
-        <div class="grid-item">1</div>
-        <div class="grid-item">2</div>
-        <div class="grid-item">3</div>
-        <div class="grid-item">4</div>
-        <div class="grid-item">5</div>
-        <div class="grid-item">6</div>
-        <div class="grid-item">7</div>
-        <div class="grid-item">8</div>
-        <div class="grid-item">9</div>
-        <div class="grid-item">10</div>
-        <div class="grid-item">11</div>
-        <div class="grid-item">12</div>
-    </div>
-
-    <section class="features">
-        <article class="grid-item">Característica 1</article>
-        <article class="grid-item">Característica 2</article>
-        <article class="grid-item">Característica 3</article>
-        <article class="grid-item">Característica 4</article>
-    </section>
-
-
+            <div class="card">
+                <img src="assets/images/avion_home.jpg" alt="anuncio casa con alberca">
+                <div class="contenido-card">
+                    <h3>Acapulco</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint nihil optio eligend</p>
+                    <p class="precio">$699</p>
+                    <a href="" class="boton boton-amarillo d-block">Ver vuelos</a>
+                </div>
+            </div>
+        </div>
+    </main>
 
 </body>
 
