@@ -176,3 +176,60 @@ h4 {
     color: darkgreen;
     font-weight: 700;
 }
+
+@media (min-width: 481px) and (max-width: 767px) {
+    /* CSS */
+    .site-header.home {
+        background: url(../images/31173.jpg);
+        background-position: center center;
+        background-size: cover;
+        height: 50vh;
+        min-height: 60 rem;
+    }
+    nav {
+        height: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .barra {
+        display: inline-grid;
+        /* display: flex; */
+        justify-content: center;
+        align-items: center;
+        padding-top: 1rem;
+    }
+    .site-header h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .iconos-nosotros {
+        display: flex;
+        justify-content: space-between;
+    }
+    .icono {
+        flex-basis: calc(33.3% - 1rem);
+        text-align: center;
+    }
+    .card {
+        /*flex: 0 0 calc(33.3% - 1rem)*/
+        flex-grow: 0;
+        flex-shrink: 0/*Para no encogerse*/
+        ;
+        flex-basis: 100%;
+        border-style: solid;
+        border-color: burlywood;
+        border-width: 1px;
+        /**es lo mismo que el de arriba ---> border: 1px solid coral **/
+        background: rgb(231, 231, 226);
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+}
+
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
