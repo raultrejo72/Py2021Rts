@@ -1,0 +1,25 @@
+@mixin prueba-card($borderwth, $backgr) {
+    /*flex: 0 0 calc(33.3% - 1rem)*/
+    flex-grow: 0;
+    flex-shrink: 0/*Para no encogerse*/
+    ;
+    flex-basis: calc(33.3% - 1rem);
+    border-style: solid;
+    border-color: burlywood;
+    border-width: $borderwth;
+    /**es lo mismo que el de arriba ---> border: 1px solid coral **/
+    background: $backgr;
+    margin-bottom: 1rem;
+}
+
+.contenido-card1 {
+    @include prueba-card(1px, #ce5b19);
+}
+
+.contenido-card2 {
+    @include prueba-card(1px, #6ace19);
+}
+
+.contenido-card3 {
+    @include prueba-card(1px, #088992);
+}

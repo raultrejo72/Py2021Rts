@@ -1,3 +1,42 @@
+.contenido-card1 {
+    /*flex: 0 0 calc(33.3% - 1rem)*/
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(33.3% - 1rem);
+    border-style: solid;
+    border-color: burlywood;
+    border-width: 1px;
+    /**es lo mismo que el de arriba ---> border: 1px solid coral **/
+    background: #ce5b19;
+    margin-bottom: 1rem;
+}
+
+.contenido-card2 {
+    /*flex: 0 0 calc(33.3% - 1rem)*/
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(33.3% - 1rem);
+    border-style: solid;
+    border-color: burlywood;
+    border-width: 1px;
+    /**es lo mismo que el de arriba ---> border: 1px solid coral **/
+    background: #6ace19;
+    margin-bottom: 1rem;
+}
+
+.contenido-card3 {
+    /*flex: 0 0 calc(33.3% - 1rem)*/
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(33.3% - 1rem);
+    border-style: solid;
+    border-color: burlywood;
+    border-width: 1px;
+    /**es lo mismo que el de arriba ---> border: 1px solid coral **/
+    background: #088992;
+    margin-bottom: 1rem;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -153,18 +192,20 @@ h4 {
     flex-wrap: wrap;
 }
 
+
+/*
 .card {
-    /*flex: 0 0 calc(33.3% - 1rem)*/
+    flex: 0 0 calc(33.3% - 1rem)
     flex-grow: 0;
     flex-shrink: 0;
     flex-basis: calc(33.3% - 1rem);
     border-style: solid;
     border-color: burlywood;
     border-width: 1px;
-    /**es lo mismo que el de arriba ---> border: 1px solid coral **/
+    /**es lo mismo que el de arriba ---> border: 1px solid coral
     background: #e7e7e2;
     margin-bottom: 2rem;
-}
+}*/
 
 .contenido-card {
     padding: 2rem;
@@ -175,7 +216,7 @@ h4 {
 }
 
 .precio {
-    color: #00796b;
+    color: #233286;
     font-weight: 700;
 }
 
