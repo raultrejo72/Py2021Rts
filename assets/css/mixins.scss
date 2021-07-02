@@ -13,13 +13,13 @@
 }
 
 .contenido-card1 {
-    @include prueba-card(1px, #ce5b19);
+    @include prueba-card(1px, #bdada4);
 }
 
 .contenido-card2 {
-    @include prueba-card(1px, #6ace19);
+    @include prueba-card(1px, #72756f);
 }
 
 .contenido-card3 {
-    @include prueba-card(1px, #088992);
+    @include prueba-card(1px, #3d3f3f);
 }

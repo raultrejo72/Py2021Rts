@@ -1,280 +1,281 @@
 .contenido-card1 {
-    /*flex: 0 0 calc(33.3% - 1rem)*/
-    flex-grow: 0;
-    flex-shrink: 0;
-    flex-basis: calc(33.3% - 1rem);
-    border-style: solid;
-    border-color: burlywood;
-    border-width: 1px;
-    /**es lo mismo que el de arriba ---> border: 1px solid coral **/
-    background: #ce5b19;
-    margin-bottom: 1rem;
+  /*flex: 0 0 calc(33.3% - 1rem)*/
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: calc(33.3% - 1rem);
+  border-style: solid;
+  border-color: burlywood;
+  border-width: 1px;
+  /**es lo mismo que el de arriba ---> border: 1px solid coral **/
+  background: #bdada4;
+  margin-bottom: 1rem;
 }
 
 .contenido-card2 {
-    /*flex: 0 0 calc(33.3% - 1rem)*/
-    flex-grow: 0;
-    flex-shrink: 0;
-    flex-basis: calc(33.3% - 1rem);
-    border-style: solid;
-    border-color: burlywood;
-    border-width: 1px;
-    /**es lo mismo que el de arriba ---> border: 1px solid coral **/
-    background: #6ace19;
-    margin-bottom: 1rem;
+  /*flex: 0 0 calc(33.3% - 1rem)*/
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: calc(33.3% - 1rem);
+  border-style: solid;
+  border-color: burlywood;
+  border-width: 1px;
+  /**es lo mismo que el de arriba ---> border: 1px solid coral **/
+  background: #72756f;
+  margin-bottom: 1rem;
 }
 
 .contenido-card3 {
-    /*flex: 0 0 calc(33.3% - 1rem)*/
-    flex-grow: 0;
-    flex-shrink: 0;
-    flex-basis: calc(33.3% - 1rem);
-    border-style: solid;
-    border-color: burlywood;
-    border-width: 1px;
-    /**es lo mismo que el de arriba ---> border: 1px solid coral **/
-    background: #088992;
-    margin-bottom: 1rem;
+  /*flex: 0 0 calc(33.3% - 1rem)*/
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: calc(33.3% - 1rem);
+  border-style: solid;
+  border-color: burlywood;
+  border-width: 1px;
+  /**es lo mismo que el de arriba ---> border: 1px solid coral **/
+  background: #3d3f3f;
+  margin-bottom: 1rem;
 }
 
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 body {
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    font-size: 1.6rem;
-    line-height: 2;
-    margin: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.6rem;
+  line-height: 2;
+  margin: 0;
 }
 
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 .contenedor {
-    max-width: 120rem;
-    margin: 0 auto;
+  max-width: 120rem;
+  margin: 0 auto;
 }
 
 h2 {
-    font-size: 3.4rem;
+  font-size: 3.4rem;
 }
 
 h3 {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 h4 {
-    font-size: 2.6rem;
+  font-size: 2.6rem;
 }
 
 .seccion {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .fw-300 {
-    font-weight: 100;
+  font-weight: 100;
 }
 
 .centrar-texto {
-    text-align: center;
+  text-align: center;
 }
 
 .d-block {
-    display: block !important;
+  display: block !important;
 }
 
-
 /**botones**/
-
 .boton {
-    background: white;
-    font-weight: 700;
-    text-decoration: none;
-    font-size: 1.8rem;
-    padding: 1rem 3rem;
-    margin-top: 3rem;
-    text-align: center;
-    display: inline-block;
+  background: white;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 1.8rem;
+  padding: 1rem 3rem;
+  margin-top: 3rem;
+  text-align: center;
+  display: inline-block;
 }
 
 .boton-amarillo {
-    background: #FFC107;
+  background: #eeebe4;
 }
 
-
 /*Header*/
-
 .site-header {
-    background-color: #263a3a;
-    padding: 1rem 0 3rem 0;
+  background-color: #263a3a;
+  padding: 1rem 0 3rem 0;
+}
+.site-header h1 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 11rem;
+}
+.site-header h2 {
+  color: white;
+  padding-bottom: 2rem;
+  max-width: 50rem;
+  line-height: 1.8rem;
 }
 
 .site-header.home {
-    background: url(../images/31173.jpg);
-    background-position: center center;
-    background-size: cover;
-    height: 100vh;
-    min-height: 60 rem;
+  background: url(../images/31173.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+  min-height: 60 rem;
 }
 
 .contenido-header {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.contenido-header h1 {
-    color: white;
-    padding-bottom: 2rem;
-    max-width: 60rem;
-    line-height: 1.8rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .barra {
-    display: inline-grid;
-    /* display: flex; */
-    justify-content: end;
-    align-items: center;
-    padding-top: 1rem;
+  display: inline-grid;
+  justify-content: end;
+  align-items: center;
+  padding-top: 1rem;
 }
-
 
 /**Navegacion**/
-
 .navegacion a {
-    color: #ffffffe3;
-    text-decoration: none;
-    font-size: 1.8rem;
-    margin-right: 2rem;
+  color: #ffffffe3;
+  text-decoration: none;
+  font-size: 1.8rem;
+  margin-right: 2rem;
 }
-
-
-/*
-.navegacion {
-    a:hover {
-        color: blac;
-    }
-}
-
-.navegacion {
-    a:last-of-type {
-        margin: 0;
-    }
-}*/
-
 
 /**ICONO NOSOTROS**/
-
 .iconos-nosotros {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .icono {
-    flex-basis: calc(33.3% - 1rem);
-    text-align: center;
+  flex-basis: calc(33.3% - 1rem);
+  text-align: center;
 }
 
 .icono h3 {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
-
 
 /**CARDS**/
-
 .contenedor-card {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-
-/*
 .card {
-    flex: 0 0 calc(33.3% - 1rem)
-    flex-grow: 0;
-    flex-shrink: 0;
-    flex-basis: calc(33.3% - 1rem);
-    border-style: solid;
-    border-color: burlywood;
-    border-width: 1px;
-    /**es lo mismo que el de arriba ---> border: 1px solid coral
-    background: #e7e7e2;
-    margin-bottom: 2rem;
-}*/
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: calc(33.3% - 1rem);
+  border-style: solid;
+  border-color: burlywood;
+  border-width: 1px;
+  background: #e7e7e2;
+  margin-bottom: 2rem;
+}
 
 .contenido-card {
-    padding: 2rem;
+  padding: 2rem;
 }
 
 .contenido-card h3 {
-    margin: 0;
+  margin: 0;
 }
 
 .precio {
-    color: #233286;
-    font-weight: 700;
+  color: #7dd3c9;
+  font-weight: 700;
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
-    /* CSS */
-    .site-header.home {
-        background: url(../images/31173.jpg);
-        background-position: center center;
-        background-size: cover;
-        height: 50vh;
-        min-height: 60 rem;
-    }
-    nav {
-        height: 10px;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-    .barra {
-        display: inline-grid;
-        /* display: flex; */
-        justify-content: center;
-        align-items: center;
-        padding-top: 1rem;
-    }
-    .site-header h1 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .iconos-nosotros {
-        display: flex;
-        justify-content: space-between;
-    }
-    .icono {
-        flex-basis: calc(33.3% - 1rem);
-        text-align: center;
-    }
-    .card {
-        /*flex: 0 0 calc(33.3% - 1rem)*/
-        flex-grow: 0;
-        flex-shrink: 0;
-        flex-basis: 100%;
-        border-style: solid;
-        border-color: burlywood;
-        border-width: 1px;
-        /**es lo mismo que el de arriba ---> border: 1px solid coral **/
-        background: #e7e7e2;
-        margin-bottom: 2rem;
-        text-align: center;
-    }
+  /* CSS */
+  .site-header.home {
+    background: url(../images/31173.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 50vh;
+    min-height: 60 rem;
+  }
+
+  .site-header {
+    background-color: #263a3a;
+    padding: 1rem 0 3rem 0;
+  }
+  .site-header h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5rem;
+  }
+  .site-header h2 {
+    color: white;
+    padding-bottom: 2rem;
+    max-width: 50rem;
+    line-height: 1.8rem;
+    font-size: 2rem;
+  }
+
+  nav {
+    height: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .barra {
+    display: inline-grid;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+  }
+
+  .site-header h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .iconos-nosotros {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .icono {
+    flex-basis: calc(33.3% - 1rem);
+    text-align: center;
+  }
+
+  .card {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 100%;
+    border-style: solid;
+    border-color: burlywood;
+    border-width: 1px;
+    background: #e7e7e2;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  .contenedor-card {
+    display: flex;
+    flex-direction: column;
+  }
 }
-
-
 /* 
     ##Device = Most of the Smartphones Mobiles (Portrait)
     ##Screen = B/w 320px to 479px
   */
-
 
 /*# sourceMappingURL=main.css.map */
