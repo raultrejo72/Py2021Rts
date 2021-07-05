@@ -1,231 +1,277 @@
 html {
-  font-size: 62.5%;
+    font-size: 62.5%;
 }
 
 body {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 1.6rem;
-  line-height: 2;
-  margin: 0;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+    margin: 0;
 }
 
 img {
-  max-width: 100%;
+    max-width: 100%;
 }
 
 .container {
-  max-width: 120rem;
-  margin: 0 auto;
+    max-width: 120rem;
+    margin: 0 auto;
 }
 
 .seccion {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .fw-300 {
-  font-weight: 100;
+    font-weight: 100;
 }
 
 .text-center {
-  text-align: center;
+    text-align: center;
 }
 
 .d-block {
-  display: block !important;
+    display: block !important;
 }
+
 
 /**botones**/
-.boton {
-  background: white;
-  font-weight: 700;
-  text-decoration: none;
-  font-size: 1.8rem;
-  padding: 1rem 3rem;
-  margin-top: 3rem;
-  text-align: center;
-  display: inline-block;
+
+.btn {
+    background: white;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.8rem;
+    padding: 1rem 3rem;
+    margin-top: 3rem;
+    text-align: center;
+    display: inline-block;
 }
 
-.boton-amarillo {
-  background: #eeebe4;
+.btn-card-color {
+    background: #7c786f;
 }
+
 
 /*Header*/
+
 .site-header {
-  background-color: #263a3a;
-  padding: 1rem 0 3rem 0;
+    background-color: #263a3a;
+    padding: 1rem 0 3rem 0;
 }
+
 .site-header h1 {
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 11rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11rem;
 }
+
 .site-header h2 {
-  color: white;
-  padding-bottom: 2rem;
-  max-width: 50rem;
-  line-height: 1.8rem;
+    color: white;
+    padding-bottom: 2rem;
+    max-width: 50rem;
+    line-height: 1.8rem;
 }
 
 .site-header.home {
-  background: url(../images/31173.jpg);
-  background-position: center center;
-  background-size: cover;
-  height: 100vh;
-  min-height: 60 rem;
-}
-
-.contents-header {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.bar {
-  display: inline-grid;
-  justify-content: end;
-  align-items: center;
-  padding-top: 1rem;
-}
-
-/**Navegacion**/
-.navegation a {
-  color: #ffffffe3;
-  text-decoration: none;
-  font-size: 1.8rem;
-  margin-right: 2rem;
-}
-
-/**ICONO NOSOTROS**/
-.iconos-nosotros {
-  display: flex;
-  justify-content: space-between;
-}
-
-.icono {
-  flex-basis: calc(33.3% - 1rem);
-  text-align: center;
-}
-
-.icono h3 {
-  text-transform: uppercase;
-}
-
-/**CARDS**/
-.container-card {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-.card {
-  flex-grow: 0;
-  flex-shrink: 0;
-  flex-basis: calc(33.3% - 1rem);
-  border-style: solid;
-  border-color: burlywood;
-  border-width: 1px;
-  background: #e7e7e2;
-  margin-bottom: 2rem;
-}
-
-.contents-card {
-  padding: 2rem;
-}
-
-.contents-card h3 {
-  margin: 0;
-}
-
-.precio {
-  color: #7dd3c9;
-  font-weight: 700;
-}
-
-@media (min-width: 320px) and (max-width: 767px) {
-  /* CSS */
-  .site-header.home {
     background: url(../images/31173.jpg);
     background-position: center center;
     background-size: cover;
-    height: 50vh;
+    height: 100vh;
     min-height: 60 rem;
-  }
+}
 
-  .site-header {
-    background-color: #263a3a;
-    padding: 1rem 0 3rem 0;
-  }
-  .site-header h1 {
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 3.5rem;
-  }
-  .site-header h2 {
-    color: white;
-    padding-bottom: 2rem;
-    padding-left: 6rem;
-    max-width: 50rem;
-    line-height: 1.8rem;
-    font-size: 2rem;
-  }
-
-  nav {
-    height: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .bar {
-    display: inline-grid;
-    justify-content: center;
-    align-items: center;
-    padding-top: 1rem;
-  }
-
-  .site-header h1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .iconos-nosotros {
+.contents-header {
+    height: 100%;
     display: flex;
     flex-direction: column;
-  }
+    justify-content: space-between;
+}
 
-  .icono {
+.bar {
+    display: inline-grid;
+    justify-content: end;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+
+/**Navegacion**/
+
+.navegation a {
+    color: #ffffffe3;
+    text-decoration: none;
+    font-size: 1.8rem;
+    margin-right: 2rem;
+}
+
+
+/**ICONO NOSOTROS**/
+
+.iconos-nosotros {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icono {
     flex-basis: calc(33.3% - 1rem);
     text-align: center;
-  }
+}
 
-  .card {
+.icono h3 {
+    text-transform: uppercase;
+}
+
+
+/**CARDS**/
+
+.container-card {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
     flex-grow: 0;
     flex-shrink: 0;
-    flex-basis: 100%;
+    flex-basis: calc(33.3% - 1rem);
     border-style: solid;
     border-color: burlywood;
     border-width: 1px;
     background: #e7e7e2;
     margin-bottom: 2rem;
-    text-align: center;
-  }
-
-  .container-card {
-    display: flex;
-    flex-direction: column;
-  }
 }
+
+.contents-card {
+    padding: 2rem;
+}
+
+.contents-card h3 {
+    margin: 0;
+}
+
+.precio {
+    color: #e65704;
+    font-weight: 700;
+}
+
+.footer {
+    background-color: #3b3b3b;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between
+}
+
+.footer-col h4 {
+    font-size: 23px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300px;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 8px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    /* CSS */
+    .site-header.home {
+        background: url(../images/31173.jpg);
+        background-position: center center;
+        background-size: cover;
+        height: 50vh;
+        min-height: 60 rem;
+    }
+    .site-header {
+        background-color: #263a3a;
+        padding: 1rem 0 3rem 0;
+    }
+    .site-header h1 {
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 3.5rem;
+    }
+    .site-header h2 {
+        color: white;
+        padding-bottom: 2rem;
+        padding-left: 6rem;
+        max-width: 50rem;
+        line-height: 1.8rem;
+        font-size: 2rem;
+    }
+    nav {
+        height: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .bar {
+        display: inline-grid;
+        justify-content: center;
+        align-items: center;
+        padding-top: 1rem;
+    }
+    .site-header h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .iconos-nosotros {
+        display: flex;
+        flex-direction: column;
+    }
+    .icono {
+        flex-basis: calc(33.3% - 1rem);
+        text-align: center;
+    }
+    .card {
+        flex-grow: 0;
+        flex-shrink: 0;
+        flex-basis: 100%;
+        border-style: solid;
+        border-color: burlywood;
+        border-width: 1px;
+        background: #e7e7e2;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+    .container-card {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
 /* 
     ##Device = Most of the Smartphones Mobiles (Portrait)
     ##Screen = B/w 320px to 479px
   */
+
 
 /*# sourceMappingURL=main.css.map */
